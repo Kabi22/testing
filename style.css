@@ -9,8 +9,9 @@
 
 .name,
 .back {
-  font-family: "Helvetica", serif;
+  font-family: "Open Sans", serif;
   font-size: 80px;
+  font-weight: 800;
   text-align: center;
   width: auto;
   margin-top: 4rem;
@@ -26,7 +27,7 @@
 }
 
 .border {
-  width: 100vw;
+  width: 50vw;
   height: 2rem;
   background: lightgray;
   position: relative;
