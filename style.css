@@ -1,0 +1,88 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1rem;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 500;
+}
+
+.name,
+.back {
+  font-family: "Helvetica", serif;
+  font-size: 80px;
+  text-align: center;
+  width: auto;
+  margin-top: 4rem;
+}
+
+.bio-main {
+  text-align: center;
+  width: auto;
+}
+
+.upitt {
+  font-weight: bold;
+}
+
+.border {
+  width: 100vw;
+  height: 2rem;
+  background: lightgray;
+  position: relative;
+  border-radius: 5%;
+}
+.borderline {
+  width: 50vw;
+  height: 2px;
+  background: lightgray;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: -3rem;
+}
+.nav .social li {
+  display: inline;
+}
+
+.social li a {
+  text-decoration: none;
+  padding: 0 1rem;
+  margin: 1rem;
+  color: black;
+  transition: all 0.5s;
+  border-radius: 40px;
+
+  box-shadow: -2px -2px 8px rgba(255, 255, 255, 1),
+    -2px -2px 12px rgba(255, 255, 255, 0.5),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.1), 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+.social li a:hover {
+  box-shadow: inset -2px -2px 8px rgba(255, 255, 255, 1),
+    inset -2px -2px 12px rgba(255, 255, 255, 0.5),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+    inset 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+.social li a:hover b {
+  transform: scale(0.95);
+  display: inline-block;
+}
+
+.nav {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.arrow {
+  font-size: 60px;
+  text-decoration: none;
+  color: black;
+  font-family: "Markazi Text", serif;
+  transition: all 0.4s;
+}
+
+.arrow:hover {
+  color: darkblue;
+  background: lightgray;
+  opacity: 0.3;
+  border-radius: 3rem;
+}
