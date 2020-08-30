@@ -10,11 +10,12 @@
 .name,
 .back {
   font-family: "Open Sans", serif;
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 800;
   text-align: center;
   width: auto;
   margin-top: 4rem;
+  margin-bottom: 40px;
 }
 
 .bio-main {
@@ -27,11 +28,10 @@
 }
 
 .border {
-  width: 50vw;
-  height: 2rem;
+  width: 200vw;
+  height: 1rem;
   background: lightgray;
   position: relative;
-  border-radius: 5%;
 }
 .borderline {
   width: 50vw;
